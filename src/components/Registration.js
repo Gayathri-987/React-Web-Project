@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
-import './Registration.css'; // Import CSS file for styling
+import { Link } from 'react-router-dom';
+import './Registration.css';
 import registerImage from '../../src/images/registerimage.png';
 
 function Registration() {
