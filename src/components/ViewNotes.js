@@ -8,7 +8,6 @@ function ViewNotes() {
   const { userId } = location.state || {}; // Extract uuid from location state
   console.log(userId, "view");
   const [expenses, setExpenses] = useState([]);
-  const [selectedExpense, setSelectedExpense] = useState(null);
   const [showDetails, setShowDetails] = useState({});
   const [filterDate, setFilterDate] = useState('');
   const [filterCategory, setFilterCategory] = useState('');
@@ -100,7 +99,6 @@ function ViewNotes() {
             <option value="subscriptions">Subscriptions</option>
             <option value="pets">Pets</option>
             <option value="other">Other</option>
-            {/* Add more options for other categories */}
           </select>
         </div>
       </div>
