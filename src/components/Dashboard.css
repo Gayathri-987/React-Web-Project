@@ -1,0 +1,87 @@
+/* AddExpenseForm.css */
+
+.form-container {
+    width: 80%;
+    max-width: 400px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    margin-top: 130px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+  .view-expenses-button {
+    margin-top: 20px;
+    background-color: #e27ded;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    max-width: 190px;
+    margin-left: 40pc;
+  }
+  
+  .view-expenses-button:hover {
+    background-color: #70417d;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px; /* Add margin to separate fields */
+  }
+  
+  button[type="submit"] {
+    background-color: #e27ded;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Make the button full width */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #70417d;
+  }
+  
+  select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style the dropdown arrow */
+  select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="none" viewBox="0 0 24 24" stroke="currentColor" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16"></path></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px top 50%;
+    background-size: 24px 24px;
+  }
+  
+  /* Style the dropdown options */
+  select option {
+    padding: 8px;
+    font-size: 16px;
+  }
