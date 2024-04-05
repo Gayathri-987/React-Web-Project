@@ -1,0 +1,53 @@
+/* Login.css */
+.login-container {
+    max-width: 400px;
+    margin: 50px auto 0; /* Added 50px margin to the top */
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="email"],
+  input[type="password"],
+  button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  p {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  p > a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  p > a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,103 @@
+/* ViewNotes.css */
+
+/* Container for the entire component */
+.total-expenses{
+    color:black;
+    display: flex;
+    font-weight:bolder;
+    font-size: larger;
+}
+.expenses-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Individual expense card */
+  .expense-card {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 60%; /* Set width to 60% */
+  }
+  
+  /* Header section of the expense card */
+  .expense-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Button container */
+  .button-container {
+    margin-top: 10px;
+  }
+  
+  /* Button styles */
+  .button-container button {
+    padding: 6px 12px; /* Smaller padding */
+    background-color: #e27ded;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Smaller button size */
+  .show-details-button {
+    padding: 4px 8px; /* Adjust padding for smaller size */
+    max-width: 150px;
+    margin-left: 750px;
+  }
+  
+  /* Hover effect */
+  .button-container button:hover, .show-details-button:hover {
+    background-color: #70417d;
+  }
+  
+  /* Expense details section */
+  .expense-details {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #dee2e6;
+    border-radius: 4px;
+  }
+  
+/* ViewNotes.css */
+
+/* Filtering options */
+.filter-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    display: flex; /* Display filter rows in a row */
+    align-items: center; /* Align items vertically in the center */
+  }
+  
+  .filter-row {
+    display: flex; /* Display filter row items in a row */
+    align-items: center; /* Align items vertically in the center */
+  }
+  
+  .filter-row label {
+    margin-right: 10px;
+  }
+  
+  .filter-row input[type="date"] {
+    margin-right: 20px;
+  }
+  
+  /* Set category dropdown width to auto */
+  .filter-row select {
+    width: auto;
+    margin-right: 80px;
+    max-width: 300px;
+  }
+  
+  /* Position the "Shopping" option in the top right corner */
+ 
+  
